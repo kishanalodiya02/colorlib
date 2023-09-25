@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorlib</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="" >
+    <header class="container-fluid bg-dark">
+        <h1 class="text-white py-2">colorlib <span class="text-success">.</span></h1>
+    </header>
+
+    <div class="mainbox">
+        <nav class="navbar container-fluid  ">
+            <h3 class="fw-bold"><span class="fs-2">S</span>HION HOUSE</h3>
+
+            <ul class="first-ul">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li class="blog"><a href="">BLOG +</a>
+                    <ul class="blog-ul">
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Blog Details</a></li>
+                        <li><a href="">Elements</a></li>
+                        <li><a href="">Product Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+
+            <div class="icndiv d-flex"><a href=""><i class="fa-brands fa-twitter"></i></a> <a href=""><i
+                        class="fa-brands fa-facebook-f"></i></a> <a href=""><i class="fa-solid fa-p"></i></a> <a
+                    href=""><i class="fa fa-search search-icn" aria-hidden="true"></i></a> <a href=""><i
+                        class="fa fa-shopping-bag bagicn" aria-hidden="true">&nbsp; 0</i></a>
+
+                <div class="menu-bar"  ><i class="fa-solid fa-bars" onclick="db()"></i>
+                    
+                    <ul id="second-ul2" class="second-ul" >
+                        <i class="fa-solid fa-times close-icn" onclick="db2()"></i>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        
+                        <li class="blog"><a href="">BLOG +</a>
+                            
+                            <ul class="blog-ul">
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Blog Details</a></li>
+                                <li><a href="">Elements</a></li>
+                                <li><a href="">Product Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </nav>
+        <!---------------------------------breadcrump-------------------------------------->
+
+
+
+
+        <nav aria-label="breadcrumb " class="bg-secondary-subtle mb-5">
+            <ol class="breadcrumb py-2  mx-auto" style="width:fit-content;">
+              <li class="breadcrumb-item "><a href="index.html">home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">SHOP</li>
+            </ol>
+          </nav>
+
+        <!-- <div class="navbar2  container-fluid text-white">
+            <div class="menu-bar "><i class="fa-solid fa-bars"></i></div> 
+        </div> -->
+        <!--------------------------SLIDER------------------------------------>
+
+         <!-- ===============================================box2======================== -->
+
+         <div class=" container-fluid box2 text-center">
+            <h1 class="text-start">SHOP WITH US</h1>
+            <h5  class="text-start ">Browse from 230 latest items</h5>
+
+            <div class="row my-5">
+                <div class="col-sm-12 col-md-6 col-lg-3 item1 items">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle w-100 " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Category
+                        </button>
+                        <ul class="dropdown-menu w-100">
+                          <li><a class="dropdown-item" href="#">shart</a></li>
+                          <li><a class="dropdown-item" href="#">T-shart</a></li>
+                          <li><a class="dropdown-item" href="#">pent</a></li>
+                          <li><a class="dropdown-item" href="#">Dress</a></li>
+                        </ul>
+                      </div>
+
+                      <div class="dropdown pt-3">
+                        <button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Type
+                        </button>
+                        <ul class="dropdown-menu w-100">
+                          <li><a class="dropdown-item" href="#">SM</a></li>
+                          <li><a class="dropdown-item" href="#">MD</a></li>
+                          <li><a class="dropdown-item" href="#">XL</a></li>
+                          <li><a class="dropdown-item" href="#">XXL</a></li>
+                        </ul>
+                      </div>
+
+                      <div class="dropdown pt-3">
+                        <button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Size
+                        </button>
+                        <ul class="dropdown-menu w-100">
+                          <li><a class="dropdown-item" href="#">1.5ft</a></li>
+                          <li><a class="dropdown-item" href="#">2.5ft</a></li>
+                          <li><a class="dropdown-item" href="#">3.5ft</a></li>
+                          <li><a class="dropdown-item" href="#">5.5ft</a></li>
+                        </ul>
+                      </div>
+
+                      <div class="dropdown pt-3">
+                        <button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Color
+                        </button>
+                        <ul class="dropdown-menu w-100">
+                          <li><a class="dropdown-item" href="#">white</a></li>
+                          <li><a class="dropdown-item" href="#">green</a></li>
+                          <li><a class="dropdown-item" href="#">blue</a></li>
+                          <li><a class="dropdown-item" href="#">red</a></li>
+                        </ul>
+                      </div>
+
+                      <div class="dropdown pt-3">
+                        <button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Price range
+                        </button>
+                        <ul class="dropdown-menu w-100">
+                          <li><a class="dropdown-item" href="#">shart</a></li>
+                          <li><a class="dropdown-item" href="#">T-shart</a></li>
+                          <li><a class="dropdown-item" href="#">pent</a></li>
+                          <li><a class="dropdown-item" href="#">Dress</a></li>
+                        </ul>
+                      </div>
+
+                      
+                </div>
+
+                
+
+
+                <div class="col-sm-12 col-md-6 col-lg-3  items"><img src="./image/arrival1.png" alt=""
+                        class="container-fluid px-0">
+                    <p class="bagicn"><a href=""><i class="fa fa-shopping-bag " aria-hidden="true"></i></a></p>
+                    <h5 class="text-center"><a href="">Knitted Jumper</a> <br>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                    </h5>
+                    <h6 class="fw-bold pb-5">$ 30.00</h6>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 items"><img src="./image/arrival2.png" alt=""
+                        class="container-fluid px-0">
+                    <p class="bagicn"><a href=""><i class="fa fa-shopping-bag " aria-hidden="true"></i></a></p>
+                    <h5 class="text-center"><a href="">Knitted Jumper</a> <br>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                    </h5>
+                    <h6 class="fw-bold pb-5">$ 30.00</h6>
+
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 items"><img src="./image/arrival3.png" alt=""
+                        class="container-fluid px-0">
+                    <p class="bagicn"><a href=""><i class="fa fa-shopping-bag " aria-hidden="true"></i></a></p>
+                    <h5 class="text-center"><a href="">Knitted Jumper</a> <br>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                    </h5>
+                    <h6 class="fw-bold pb-5">$ 30.00</h6>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 items"><img src="./image/arrival4.png" alt=""
+                        class="container-fluid px-0">
+                    <p class="bagicn"><a href=""><i class="fa fa-shopping-bag " aria-hidden="true"></i></a></p>
+                    <h5 class="text-center"><a href="">Knitted Jumper</a> <br>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                    </h5>
+                    <h6 class="fw-bold pb-5">$ 30.00</h6>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="row my-5">
+                <div class="col-sm-12 col-md-6 col-lg-3  items"><img src="./image/arrival5.png" alt=""
+                        class="container-fluid px-0">
+                    <p class="bagicn"><a href=""><i class="fa fa-shopping-bag " aria-hidden="true"></i></a></p>
+                    <h5 class="text-center"><a href="">Knitted Jumper</a> <br>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                    </h5>
+                    <h6 class="fw-bold pb-5">$ 30.00</h6>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 items"><img src="./image/arrival6.png" alt=""
+                        class="container-fluid px-0">
+                    <p class="bagicn"><a href=""><i class="fa fa-shopping-bag " aria-hidden="true"></i></a></p>
+                    <h5 class="text-center"><a href="">Knitted Jumper</a> <br>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                    </h5>
+                    <h6 class="fw-bold pb-5">$ 30.00</h6>
+
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 items"><img src="./image/arrival7.png" alt=""
+                        class="container-fluid px-0">
+                    <p class="bagicn"><a href=""><i class="fa fa-shopping-bag " aria-hidden="true"></i></a></p>
+                    <h5 class="text-center"><a href="">Knitted Jumper</a> <br>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                    </h5>
+                    <h6 class="fw-bold pb-5">$ 30.00</h6>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 items"><img src="./image/arrival8.png" alt=""
+                        class="container-fluid px-0">
+                    <p class="bagicn"><a href=""><i class="fa fa-shopping-bag " aria-hidden="true"></i></a></p>
+                    <h5 class="text-center"><a href="">Knitted Jumper</a> <br>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                    </h5>
+                    <h6 class="fw-bold pb-5">$ 30.00</h6>
+
+                </div>
+
+            </div>
+
+            <button class="btn mb-5 ">
+                <div class="btndiv"></div> Browse More
+            </button>
+
+
+        </div>
+       
+
+        <!-- ===============================================box1======================== -->
+        <div class="container-fluid px-0 my-5 box1">
+            <div class=" row gridbox2  ">
+                <div class="col-sm-12 col-md-6 col-lg-3 my-2  items"><img src="./image/popular1.png" alt=""
+                        class="container-fluid px-0 ms-0">
+                    <button class="btn">Shop Now</button>
+                    <p><a href="">GLASSES</a></p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 my-2   items"><img src="./image/popular2.png" alt=""
+                        class="container-fluid px-0">
+                    <button class="btn">Shop Now</button>
+                    <p><a href="">GLASSES</a></p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 my-2   items"><img src="./image/popular3.png" alt=""
+                        class="container-fluid px-0">
+                    <button class="btn">Shop Now</button>
+                    <p><a href="">GLASSES</a></p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 my-2   items"><img src="./image/popular4.png" alt=""
+                        class="container-fluid px-0">
+                    <button class="btn">Shop Now</button>
+                    <p><a href="">GLASSES</a></p>
+                </div>
+
+            </div>
+
+        </div>
+       
+
+        <!-- ===============================================box3======================== -->
+
+        
+
+        <!--===============================================box4========================-->
+
+       
+
+        <!--===============================================box5========================-->
+
+        <div class="container-fluid row box5  mx-0">
+            <div class="col-sm-12 col-md-6 col-lg-3  py-5 items ">
+                <i class="fa-solid fa-truck"></i>
+                <h3>Fast & Free Delivery</h3>
+                <h5>Free delivery on all orders</h5>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5 items ">
+                <i class="fa-solid fa-credit-card"></i>
+                <h3>Fast & Free Delivery</h3>
+                <h5>Free delivery on all orders</h5>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5 items">
+                <i class="fa-brands fa-chromecast"></i>
+                <h3>Fast & Free Delivery</h3>
+                <h5>Free delivery on all orders</h5>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5  items">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Fast & Free Delivery</h3>
+                <h5>Free delivery on all orders</h5>
+            </div>
+
+        </div>
+
+        <!--===============================================footer========================-->
+        <footer class="container-fluid row bg-dark text-white px-2 px-5 py-5 mx-0">
+            <div class="col-sm-12 col-md-8 col-lg-3 px-0 py-3">
+                <h3 class="fw-bold"><span class="fs-2">S</span>HION HOUSE</h3>
+                <p>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                    interdum nulla.</p>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-3 py-3">
+                <h5>Quick links</h5>
+                <p><a href="">Image Licensin</a></p>
+                <p><a href="">Style Guide</a></p>
+                <p><a href="">Privacy Policy</a></p>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-2 py-3">
+                <h5>Shop Category</h5>
+                <p><a href="">Image Licensin</a></p>
+                <p><a href="">Style Guide</a></p>
+                <p><a href="">Privacy Policy</a></p>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-2 py-3">
+                <h5>Pertners</h5>
+                <p><a href="">Image Licensin</a></p>
+                <p><a href="">Style Guide</a></p>
+                <p><a href="">Privacy Policy</a></p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-2 py-3">
+                <h5>Get in touch</h5>
+                <p><a href="">(89) 982-278 356</a></p>
+                <p><a href="">demo@colorlib.com</a></p>
+                <p><a href="">67/A, Colorlib, Green road, NYC</a></p>
+
+            </div>
+
+            <div class="icndiv"><a href=""><i class="fa-brands fa-twitter"></i></a> <a href=""><i
+                        class="fa-brands fa-facebook-f"></i></a> <a href=""><i class="fa-solid fa-p"></i></a> </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js  "
+    
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous">
+    
+
+    
+    
+    
+    </script>
+    <script src="js/action.js"> </script>
+</body>
+
+</html>
