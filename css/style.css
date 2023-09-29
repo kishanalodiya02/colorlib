@@ -261,7 +261,7 @@
 /* ----------------------------------------------------------SLIDER---------------------- */
 
 .mainbox .slider img {
-  height: 50vh;
+  height: 80vh;
 }
 
 
@@ -276,7 +276,7 @@
 .content-div{position: absolute;  z-index: 3;}
 
 .mainbox .slider  h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   /* position: absolute; */
   z-index: 3;
   font-weight: bold;
@@ -290,7 +290,20 @@
     font-size: 7vw;
 
   }
+  .mainbox .slider img {
+    height: 60vh;
+  }
 
+
+}
+@media  (max-width:480px) {
+  .mainbox .slider h1 {
+    font-size: 7vw;
+
+  }
+  .mainbox .slider img {
+    height: 50vh;
+  }
 
 
 }
